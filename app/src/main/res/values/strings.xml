@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Star Wars Movies</string>
+    <string name="moviecharacters">Movie Charaters</string>
+    <string name="movieTitle">Movie Title</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="movieDescription">Movie Description</string>
+    <string name="hasSeen">Has Seen?</string>
+    <string name="movieLink">Link to Movie</string>
+    <string name="toolBarText">Star Wars Movies</string>
+    <string name="toolBarString">Star Wars Movies</string>
+    <string name="toolBarText1">Movie</string>
+    <string name="singleTitle">Title Of Movie</string>
+    <string name="desciptionView">Movie Description</string>
+    <string name="hasSeenBox">have seen textbox</string>
+    <string name="alreadySeen">Already Seen</string>
+    <string name="want_to_see">Want to See</string>
+    <string name="doNotLike">Do Not Like</string>
+</resources>

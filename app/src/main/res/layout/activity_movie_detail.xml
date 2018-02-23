@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolBar2"
+        android:text="@string/toolBarText1"
+        android:background="@color/red"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleView"
+        android:text="@string/singleTitle"
+        android:layout_below="@id/toolBar2"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"/>
+    
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="230dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/imgView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titleView"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionView"
+        android:text="@string/desciptionView"
+        android:layout_below="@id/imgView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/descriptionView"
+        android:layout_marginLeft="150dp">
+
+        <RadioButton android:id="@+id/alreadySeenID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alreadySeen"
+            android:gravity="center"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/wantSeeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/want_to_see" />
+
+        <RadioButton android:id="@+id/doNotLikeID"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doNotLike"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>
